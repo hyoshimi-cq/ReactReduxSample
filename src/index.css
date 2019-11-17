@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cp_bgpattern07 {
+	background-size: 20px 20px;
+	background-color: #43A047;
+	background-image:
+	linear-gradient(45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
+	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
+	 transparent 75%, transparent),
+	linear-gradient(-45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
+	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
+	 transparent 75%, transparent);
+}
