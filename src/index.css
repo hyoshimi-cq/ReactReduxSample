@@ -1,25 +1,24 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .cp_bgpattern07 {
-	background-size: 20px 20px;
-	background-color: #43A047;
-	background-image:
-	linear-gradient(45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
-	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
-	 transparent 75%, transparent),
-	linear-gradient(-45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
-	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
-	 transparent 75%, transparent);
+    background-size: 20px 20px;
+    background-color: #43A047;
+    background-image: linear-gradient(45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%, transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%, transparent 75%, transparent), linear-gradient(-45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%, transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%, transparent 75%, transparent);
+}
+
+.navbar_app {
+    font-size: 24px;
+}
+
+.navbar_container {
+    padding: 50px;
 }

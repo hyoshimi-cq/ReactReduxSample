@@ -10,7 +10,8 @@ const mapStateToProps = state => {
   return {
     appLoaded: state.common.appLoaded,
     appName: state.common.appName
-  }};
+  }
+};
 
 const mapDispatchToProps = dispatch => ({
   onLoad: () =>
