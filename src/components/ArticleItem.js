@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const ArticleItem = props => {
+    const article = props.article
+    const user = props.article.user
     return (
         <div className="aricle_item">
-            <img src={props.article.user.profile_image_url} alt={props.article.user.id} className="icon" />
-            <div>{props.article.user.id}</div>
+            <img src={user.profile_image_url} alt={user.id} className="icon" />
+            <div>{user.id}</div>
             <div>
-                <Link to="/" >
-                    {props.article.title}
+                <Link to={`article/${article.id}`} >
+                    {article.title}
                 </Link>
             </div>
         </div>

@@ -20,6 +20,3 @@ ReactDOM.render((
     </Provider>
   
 ), document.getElementById('root'));
-
-console.log(agent.Articles.byTag('react'))
-console.log(agent.Articles.detail('51e85d5fe0354b7de86c'))

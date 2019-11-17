@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './../logo.svg';
 import './../App.css';
 import { Route, Switch } from 'react-router';
 import Header from './Header'
 import { connect } from 'react-redux';
 import { APP_LOAD } from '../constants/actionTypes';
 import Home from './Home';
+import ArticleDetil from './ArticleDetil';
 
 const mapStateToProps = state => {
   return {
@@ -32,6 +32,7 @@ class App extends React.Component {
             appName={this.props.appName} />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/article/:id" component={ArticleDetil} />
           </Switch>
         </div>
       );
@@ -43,27 +44,6 @@ class App extends React.Component {
       </div>
     );
   }
-}
-
-function Default() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-      </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-      </a>
-      </header>
-    </div>
-  )
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
