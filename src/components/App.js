@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router';
 import Header from './Header'
 import { connect } from 'react-redux';
 import { APP_LOAD } from '../constants/actionTypes';
+import Home from './Home';
 
 const mapStateToProps = state => {
   return {
@@ -30,7 +31,7 @@ class App extends React.Component {
           <Header
             appName={this.props.appName} />
           <Switch>
-            <Route exact path="/" component={Default} />
+            <Route exact path="/" component={Home} />
           </Switch>
         </div>
       );

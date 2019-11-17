@@ -1,5 +1,6 @@
 import {
-    APP_LOAD
+    APP_LOAD,
+    ARTICLES_LOAD
 } from '../constants/actionTypes';
 
 const defaultState = {
@@ -12,6 +13,11 @@ export default (state = defaultState, action) => {
             return {
                 ...state,
                 appLoaded: true,
+            };
+        case ARTICLES_LOAD:
+            return {
+                ...state,
+                articles: action.payload
             };
         default:
             return state;

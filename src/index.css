@@ -22,3 +22,18 @@ code {
 .navbar_container {
     padding: 50px;
 }
+
+.article-preview {
+    font-size: 24px;
+    text-align:  center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.aricle_item {
+    padding: 10px;
+    border-bottom: thin solid gray;
+}
